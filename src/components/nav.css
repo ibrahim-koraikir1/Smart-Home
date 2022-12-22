@@ -1,0 +1,38 @@
+nav {
+    width: 100vw;
+    height: 6rem;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: var(--color-primary);
+}
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav button {
+    display: none;
+}
+
+.nav_items {
+display: flex;
+gap: 3rem;
+}
+.nav_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nav_signin-signup {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.nav_logo h3 {
+    font-size: 1.7rem;
+}
