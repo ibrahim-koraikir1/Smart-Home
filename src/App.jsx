@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 import "./App.css";
+import About from "./components/About";
+import Clients from "./components/Clients";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 
@@ -11,6 +13,8 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
+      <About />
+      <Clients />
     </div>
   );
 }

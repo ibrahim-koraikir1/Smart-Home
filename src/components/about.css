@@ -1,0 +1,19 @@
+.about_title {
+text-align: center;
+margin-bottom: 3rem;
+margin-top: 3rem;
+}
+.about_article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+.about_article-title {
+    color: var(--color-black);
+    margin-bottom: 1.5rem;
+}
+.about_article .btn{
+    margin-top: 2.4rem;
+}
