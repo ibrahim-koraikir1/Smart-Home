@@ -52,13 +52,13 @@ export default function Header() {
             </span>
           </a>
         </div>
-        <div className="header__socials">
+        <div className="header_socials">
           <a>
             <BsFacebook />
           </a>
         </div>
       </div>
-      <div className="header decorator-1">
+      <div className="header_decorator-1">
         <img src={Scrollarrow} />
       </div>
       <div className="header_decorator-2">
