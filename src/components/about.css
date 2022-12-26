@@ -1,7 +1,7 @@
 .about_title {
-text-align: center;
-margin-bottom: 3rem;
-margin-top: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 .about_article {
     display: grid;

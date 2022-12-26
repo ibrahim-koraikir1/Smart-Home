@@ -1,0 +1,14 @@
+
+.subscribe__container {
+    background: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+.subscribe___text p{
+    margin-top: 1.4rem;
+    width: 80%;
+}
