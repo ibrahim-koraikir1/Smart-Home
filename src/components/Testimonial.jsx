@@ -13,7 +13,7 @@ export default function Testimonial() {
         Man its upon him call mile. An pasture he himself believe ferrars
         besides cottage.
       </p>
-      <div className="container testimonials___container">
+      <div className="container testimonials__container">
         <article className="testimonial">
           <p>
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam

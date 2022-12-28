@@ -16,7 +16,7 @@ export default function Clients() {
         Man its upon him call mile. An pasture himself believe ferrars besides
         cottage.
       </p>
-      <div className="container clients_container">
+      <div className="container clients__container">
         <div>
           <img src={cli6} />
         </div>

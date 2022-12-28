@@ -7,7 +7,7 @@ import "./header.css";
 export default function Header() {
   return (
     <header>
-      <div className="container header_container">
+      <div className="container header__container">
         <h1 className="header__title">
           Smart Home
           <br />
@@ -18,7 +18,7 @@ export default function Header() {
           Man its upon him call mile. An pasture he himself believe ferrars
           besides cottage.
         </p>
-        <div className="header_image">
+        <div className="header__image">
           <img src={hero} />
         </div>
         <div className="cta">
@@ -52,16 +52,25 @@ export default function Header() {
             </span>
           </a>
         </div>
-        <div className="header_socials">
+        <div className="header__socials">
           <a>
             <BsFacebook />
           </a>
+          <a>
+            <BsInstagram />
+          </a>
+          <a>
+            <BsTwitter />
+          </a>
+          <a>
+            <BsLinkedin />
+          </a>
         </div>
       </div>
-      <div className="header_decorator-1">
+      <div className="header__decorator-1">
         <img src={Scrollarrow} />
       </div>
-      <div className="header_decorator-2">
+      <div className="header__decorator-2">
         <img src={Decorator} />
       </div>
     </header>

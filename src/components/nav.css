@@ -9,7 +9,7 @@ nav {
     z-index: 2;
     background: var(--color-primary);
 }
-.nav_container {
+.nav__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,21 +18,21 @@ nav button {
     display: none;
 }
 
-.nav_items {
+.nav__items {
 display: flex;
-gap: 3rem;
+gap: 2rem;
 }
-.nav_logo {
+.nav__logo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.nav_signin-signup {
+.nav__signin-signup {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
-.nav_logo h3 {
+.nav__logo h3 {
     font-size: 1.7rem;
 }

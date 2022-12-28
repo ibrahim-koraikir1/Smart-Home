@@ -6,14 +6,14 @@ import about3 from "../assets/imgs/about3.png";
 export default function About() {
   return (
     <section id="about">
-      <h1 className="about_title">About Us</h1>
+      <h1 className="about__title">About Us</h1>
       <div className="container">
-        <article className="about_article">
-          <div className="about_image">
+        <article className="about__article">
+          <div className="about__image">
             <img src={about1} />
           </div>
           <div className="about content">
-            <h2 className="about_article-title">Smart Home's Smart Services</h2>
+            <h2 className="about__article-title">Smart Home's Smart Services</h2>
             <p>
               Wisdom new and valley answer. Contented it so is disco se
               recommend. Man its upon him call mile. An pasture he himself
@@ -25,9 +25,9 @@ export default function About() {
           </div>
         </article>
 
-        <article className="about_article">
+        <article className="about__article">
           <div className="about content">
-            <h2 className="about_article-title">Smart Home's Smart Services</h2>
+            <h2 className="about__article-title">Smart Home's Smart Services</h2>
             <p>
               Wisdom new and valley answer. Contented it so is disco se
               recommend. Man its upon him call mile. An pasture he himself
@@ -37,17 +37,17 @@ export default function About() {
               Learn More
             </a>
           </div>
-          <div className="about_image">
+          <div className="about__image">
             <img src={about2} />
           </div>
         </article>
 
-        <article className="about_article">
-          <div className="about_image">
+        <article className="about__article">
+          <div className="about__image">
             <img src={about3} />
           </div>
           <div className="about content">
-            <h2 className="about_article-title">Smart Home's Smart Services</h2>
+            <h2 className="about__article-title">Smart Home's Smart Services</h2>
             <p>
               Wisdom new and valley answer. Contented it so is disco se
               recommend. Man its upon him call mile. An pasture he himself
