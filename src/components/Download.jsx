@@ -1,6 +1,6 @@
 import React from "react";
 import "./download.css";
-import "./Header.css";
+
 
 import appp from "../assets/imgs/appp.png";
 import and from "../assets/imgs/and.png";
